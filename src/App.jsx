@@ -39,7 +39,7 @@ function App() {
       onChange={(e)=>setSearchTeam(e.target.value)}
       />
       <img
-       src="{SearchIcon}" 
+       src={SearchIcon}
        alt="search"
        onClick={()=>searchMovies(searchTerm)}
         />
